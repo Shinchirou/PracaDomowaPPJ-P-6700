@@ -10,12 +10,13 @@ public class TablePrinter {
     }
 
     public void fillAndPrintTable(int n) {
+        table = new int[n + 1][];
 
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i <= table.length - 1; i++) {
             System.out.println();
-            table = new int[i + 1][i + 1];
 
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j <= n; j++) {
+                table[i] = new int[i + 1];
                 table[i][j] = j;
                 System.out.print(table[i][j]);
 
@@ -23,8 +24,8 @@ public class TablePrinter {
                     break;
                 System.out.print(", ");
             }
-
         }
-
     }
+
+
 }

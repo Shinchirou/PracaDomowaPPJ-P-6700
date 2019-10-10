@@ -7,9 +7,6 @@ public class Main {
         TablePrinter tablePrinter = new TablePrinter();
         tablePrinter.fillAndPrintTable(20);
         tablePrinter.fillAndPrintTable(0);
+        tablePrinter.fillAndPrintTable(5);
     }
-
-
-
-
 }
