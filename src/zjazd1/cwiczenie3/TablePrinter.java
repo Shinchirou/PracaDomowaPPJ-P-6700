@@ -1,5 +1,7 @@
 package zjazd1.cwiczenie3;
 
+//Numer indeksu P-6700
+
 public class TablePrinter {
 
     int[][] table;
